@@ -1,0 +1,149 @@
+/* Navbar styles (same as before) */
+
+.navbar {
+    background-color:gray; /* Pink background color for the navbar */
+}
+
+.pink-bg {
+    background-color:gray; /* Pink background color for the offcanvas body */
+}
+
+.pink-text {
+
+    color: blue; /* Pink color for the navbar brand text */
+    margin: auto;
+}
+
+.nav-link {
+    font-size: 18px; /* Custom font size */
+    color: rgb(255, 255, 255); /* Custom link color */
+    margin-right: 15px; /* Custom margin between the nav items */
+    transition: all 0.3s; /* Smooth transition for size and color changes */
+}
+
+.nav-link:hover {
+    font-size: 20px; /* Slightly bigger font size on hover */
+    color: #1a1819; /* Lighter pink color on hover */
+}
+
+.nav-link:active {
+    font-size: 20px; /* Slightly bigger font size on click */
+    color: #070306; /* Darker pink color on click */
+}
+.main-content{
+    background-image: url('images/tra.jpg');
+    background-size: cover;
+
+    background-position: center;
+}
+
+/* Writing section styles */
+.writing-section {
+    padding: 50px 0;
+    width: 60%; 
+    height: 120vh;
+}
+
+.writing-title {
+    text-align: center;
+    text-shadow: 0px 0px 5px #6a6167;
+}
+
+.writing-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.form-group label {
+    color: #564e53;
+}
+
+.form-control:focus {
+    border-color: #504c4f;
+    box-shadow: 0 0 5px #22053b;
+}
+
+.btn-primary {
+    background-color: #161315;
+    border: none;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    background-color: #8c888b !important;
+}
+
+.form-check-input {
+    margin-right: 10px;
+}
+
+.form-check-input:checked {
+    background-color: #522531;
+    border-color: #350d26;
+}
+
+.form-check-input:focus {
+    outline: none !important;
+    box-shadow: 0 0 5px #0f0d1d !important;
+}
+
+/* Publishing options (same as before) */
+.publishing-options {
+    width: 40%;
+    height: 120vh;
+    padding: 70px 0;
+    overflow-y: scroll;
+}
+
+.publish-title {
+    text-align: center;
+    color: #4eae38;
+}
+
+/* Style the journal cards */
+.journal-card {
+    max-width: 24rem;
+    margin: auto;
+}
+
+/* Add these styles to your existing CSS file */
+.card-img-top {
+    max-width: 100%; /* Set the maximum width of the image to 100% */
+    height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+    object-fit: cover; /* Use object-fit to ensure the image covers the entire container */
+}
+
+@media screen and (max-width: 800px) {
+    .writing-section {
+        width: 100%;
+        border-bottom: 5px solid white;
+
+    }
+    .publishing-options {
+        width: 100%;
+        padding: 40px 0;
+    }
+}
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+  }
+   
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
